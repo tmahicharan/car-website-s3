@@ -8,7 +8,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: Configure car-env
+    environment: car-env
  
     steps:
       - name: Checkout code
